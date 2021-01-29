@@ -6,14 +6,22 @@ html {
     padding-top: -20px;
     padding-bottom: 200px;
     border-top: 0%;
+    
 }
 
 a {
     color: white;
     text-decoration: none;
     font-size: 18pt;
-    padding-top: 30%;
+    padding-top: 40%;
     padding-bottom: 30%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+a #aboutme {
+    padding-right: -750px;
 }
 
 header {
@@ -137,8 +145,7 @@ p.zengarden {
   */
 
   footer {
-    color: rgb(89,182,143);
-    background:url(background.png);
+    background-color: rgb(170, 231, 206);
     background-repeat: no-repeat;
     background-size: cover;
     height: 20%;
@@ -146,17 +153,26 @@ p.zengarden {
     left: 0;
     bottom: 0;
     width: 100%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
 }
+.linkedin {
 
-/*.linkedin {
-    background: url(linkedin.png);
-    background-size: 5%;
     display: block;
+    background: url(linkedin.png);
     background-repeat: no-repeat;
-    background-position: center;
-    margin-top: -50px;
-    margin-bottom: 100px;
-    padding-top: 250px;
-
+    background-size: 50px;
+    margin-left: 45%;
+    align-items: center;
 }
-*/
+
+.mail {
+    display: block;
+    background: url(mail.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin-left: 70%;
+    align-items: center;
+}
