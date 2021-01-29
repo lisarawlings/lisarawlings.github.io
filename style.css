@@ -1,50 +1,109 @@
-html {background: url(Background.jpg) repeat center;
+html {
+    background-color: rgb(255, 255, 255);
     background-size:cover;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    padding-top: -20px;
     padding-bottom: 200px;
+    border-top: 0%;
+}
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+    padding-top: 30%;
+    padding-bottom: 30%;
 }
 
 header {
-    color: rgb(89, 182, 143);
-    margin: 0;
+    background: rgb(170, 231, 206);
+    margin-top: -50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 15px;
+    padding-right: 100px;
     width: 100%;
+    height: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    position: fixed;
+    vertical-align: 30%;
+}
+
+.banner {
+    margin-top: top;
+}
+
+
+h1 {
+    font-size: 50pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 233, 213);
+    width: 100%;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 180px;
+    background-image: url(me.jpg);
+    background-position: 950px;
+    background-repeat: no-repeat;
+    background-size: 200px;
 }
 
 h2 {
-    padding-top: 250px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(89, 182, 143);
+    padding-top: 0px;
+    padding-left: 30px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(113, 196, 161);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 18pt;
 }
 
-table, th, td {
-    border: 3px solid rgb(89, 182, 143);
-  }
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16pt;
+    padding-left: 150px;
+    padding-right: 250px;
+    
+}
 
-  header {
-    background: url(Logo1.jpg) top no-repeat;
-    margin-top: 0px;
-    padding-top: 0;
-    position: center;
-    background-size: 500px;
-  
-  }
+h3 {
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-left: 30px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(113, 196, 161);
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 20px;
+    font-size: 18pt;
+}
 
-  #t01 {
-      width: auto;
-      background-color: rgba(238, 238, 238, 0.836);
-      color: rgb(89, 182, 143);
-      text-align: center;
-      margin-left: 590px;
-      line-height: 40px;
-      font-family: Arial, Helvetica, sans-serif;
-      border-color: rgb(19, 128, 82);
-      border-collapse: collapse;
-  }
 
+#video {
+    margin-left: 200px;
+}
+
+p.zengarden {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin-top: 150px;
+    text-align: left;
+    color: rgb(113, 196, 161);
+    
+}
+
+
+  /*
   h3 {
       font-family: Arial, Helvetica, sans-serif;
       color:rgb(89, 182, 143);
@@ -75,6 +134,7 @@ table, th, td {
       font-size: 20px;
       padding-top: 30px;
   }
+  */
 
   footer {
     color: rgb(89,182,143);
@@ -88,7 +148,7 @@ table, th, td {
     width: 100%;
 }
 
-.linkedin {
+/*.linkedin {
     background: url(linkedin.png);
     background-size: 5%;
     display: block;
@@ -99,3 +159,4 @@ table, th, td {
     padding-top: 250px;
 
 }
+*/
