@@ -76,10 +76,10 @@ table, th, td {
     background-repeat: no-repeat;
     background-size: cover;
     height: 20%;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    position: fixed;
 }
 
 .linkedin {
