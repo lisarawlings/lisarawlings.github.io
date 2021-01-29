@@ -7,6 +7,12 @@ html {background: url(Background.jpg) repeat center;
 
 }
 
+header {
+    color: rgb(89, 182, 143);
+    margin: 0;
+    width: 100%;
+}
+
 h2 {
     padding-top: 250px;
     text-align: center;
